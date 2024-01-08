@@ -41,3 +41,12 @@ Copy code
 Contributing:
 
 Contributions and feedback are welcome! Feel free to open issues, submit feature requests, or create pull requests to enhance this library.
+
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C0T3IKC)
+
+---
+
+Hello! 🌟
+
+Thank you for supporting my work! Your generosity is incredible and truly makes a difference. Your gesture means a lot to me.
