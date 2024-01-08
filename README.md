@@ -64,7 +64,7 @@ To use the `handleFormSubmit`  function within your project, follow these steps:
     handleFormSubmit(formElement, startPoint, endPoint);
     ```
 
-    Replace `'myForm'`, `http://example.com/submit`, and `http://example.com/success` with your actual form ID, endpoint URL for form submission, and final success redirect URLs.
+Replace `'myForm'`, `http://example.com/submit`, and `http://example.com/success` with your actual form ID, endpoint URL for form submission, and final success redirect URLs.
 
 ### Multiple Form Handling
 
