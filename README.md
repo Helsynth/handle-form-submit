@@ -54,14 +54,15 @@ To use the `handleFormSubmit`  function within your project, follow these steps:
 
 ### Single Form Handling
 
-    ```javascript
+```javascript
     // Example usage:
     const formElement = document.getElementById('myForm'); // Replace 'myForm' with your form's ID
     const startPoint = 'http://example.com/submit'; // Replace with your submission
     const endPoint = 'http://example.com/success'; // Replace with your final success redirect URL
 
     // Call handleFormSubmit function
-    handleFormSubmit(formElement, startPoint, endPoint);```
+    handleFormSubmit(formElement, startPoint, endPoint);
+ ```
 
 Replace `'myForm'`, `http://example.com/submit`, and `http://example.com/success` with your actual form ID, endpoint URL for form submission, and final success redirect URLs.
 
