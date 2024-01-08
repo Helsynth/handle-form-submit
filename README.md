@@ -23,13 +23,6 @@ To integrate Handle Form Submit into your project, simply include the library in
 html
 Copy code
 <script src="handle-form-submit.js"></script>
-<script>
-  // Example Usage
-  const formElement = document.getElementById('myForm');
-  const endpoint = 'submit-url';
-  const redirectUrl = 'success-page';
-  handleFormSubmit(formElement, endpoint, redirectUrl);
-</script>
 
 Contributing:
 Contributions and feedback are welcome! Feel free to open issues, submit feature requests, or create pull requests to enhance this library.
