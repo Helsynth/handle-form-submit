@@ -61,8 +61,7 @@ To use the `handleFormSubmit`  function within your project, follow these steps:
     const endPoint = 'http://example.com/success'; // Replace with your final success redirect URL
 
     // Call handleFormSubmit function
-    handleFormSubmit(formElement, startPoint, endPoint);
-    ```
+    handleFormSubmit(formElement, startPoint, endPoint);```
 
 Replace `'myForm'`, `http://example.com/submit`, and `http://example.com/success` with your actual form ID, endpoint URL for form submission, and final success redirect URLs.
 
