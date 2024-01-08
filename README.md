@@ -52,6 +52,8 @@ To use the `handleFormSubmit`  function within your project, follow these steps:
     
     Example
 
+### Single Form Handling
+
     ```javascript
     // Example usage:
     const formElement = document.getElementById('myForm'); // Replace 'myForm' with your form's ID
@@ -63,6 +65,25 @@ To use the `handleFormSubmit`  function within your project, follow these steps:
     ```
 
     Replace `'myForm'`, `http://example.com/submit`, and `http://example.com/success` with your actual form ID, endpoint URL for form submission, and final success redirect URLs.
+
+### Multiple Form Handling
+
+```javascript
+// Multiple form handling
+const forms = [
+  // Example Usage
+  { element: document.getElementById('signin'), startPoint: '/login.php', endPoint: '/index' },
+  { element: document.getElementById('register'), startPoint: '/register.php', endPoint: '/index' }
+  // Add more forms here if needed
+];
+
+// Handles form submissions for each specified form
+forms.forEach(({ element, startPoint, endPoint }) => {
+  if (element) {
+    handleFormSubmit(element, startPoint, endPoint);
+  }
+});
+```
 
 This will enable the Handle Form Submit functionality for the specified form, handling its submission to the `startPoint` and, upon successful submission, redirecting to the `endPoint`.
 
