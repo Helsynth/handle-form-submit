@@ -90,20 +90,20 @@ function displayToast(data, redirectOnSuccess) {
 }
 
 // Executes when the DOM is fully loaded
-window.addEventListener("DOMContentLoaded", function () {
+//window.addEventListener("DOMContentLoaded", function () {
 
   // List of forms to handle
-  const forms = [
+//  const forms = [
     // Example Usage
-    { element: document.getElementById('signin'), startPoint: 'demo/login.php', endPoint: 'demo/index' },
+//    { element: document.getElementById('signin'), startPoint: 'demo/login.php', endPoint: 'demo/index' },
     // Add more forms here if needed
-  ];
+//  ];
 
   // Handles form submissions for each specified form
-  forms.forEach(({ element, startPoint, endPoint }) => {
-    if (element) {
-      handleFormSubmit(element, startPoint, endPoint);
-    }
-  });
+//  forms.forEach(({ element, startPoint, endPoint }) => {
+//    if (element) {
+//      handleFormSubmit(element, startPoint, endPoint);
+//    }
+//  });
 
-});
+// });
