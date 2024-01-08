@@ -1,7 +1,7 @@
 /*!
  * Handle Form Submit v0.0.1
- * Copyright 2023-2024 Helsynth (https://github.com/helsynth)
- * Licensed under MIT (https://github.com/helsynth/handle-form-submit/blob/Helsynth/LICENSE)
+ * Copyright 2023-2024 Helsynth (https://github.com/Helsynth)
+ * Licensed under MIT (https://github.com/Helsynth/handle-form-submit/blob/Helsynth/LICENSE)
 */
 
 "use strict";
