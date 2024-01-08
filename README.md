@@ -50,6 +50,7 @@ To use the `handleFormSubmit` function within your project, follow these steps:
     - `startPoint`: The endpoint URL where the form data will be submitted.
     - `endPoint` (Optional): The URL to redirect to upon successful form submission.
 
+    Code
 
     ```javascript
     // Example usage:
