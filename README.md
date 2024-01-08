@@ -21,20 +21,22 @@ Handle Form Submit simplifies the process of handling form submissions by interc
 Why Use Handle Form Submit?
 
 Lightweight and Dependency-Free: Designed to minimize dependencies, providing a lean solution for form submission handling without relying on jQuery or other bulky libraries.
+
 Ease of Integration: Easily integrates into existing projects, offering a seamless experience in handling form submissions.
+
 Customizable Notifications: Allows for customization of toast notifications to suit specific design preferences.
 
 Notable Points:
 
 jQuery-Free: This library is intentionally designed to operate without jQuery, reducing overhead and improving performance.
+
 ES6 Syntax: Utilizes modern ES6 syntax and the fetch API for efficient handling of form submissions.
 
 How to Use:
 
 To integrate Handle Form Submit into your project, simply include the library in your HTML and call the handleFormSubmit function, passing the form element, endpoint URL, and optional redirection URL upon successful submission.
 
-html
-Copy code
+Html copy code
 
 <script src="handle-form-submit.js"></script>
 
