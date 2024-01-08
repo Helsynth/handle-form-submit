@@ -46,37 +46,23 @@ To use the `handleFormSubmit` function within your project, follow these steps:
 
 2. **Call `handleFormSubmit`:** Call the `handleFormSubmit` function and pass the necessary parameters:
 
-    - `element`: The HTML form element you want to handle.
-    - `startPoint`: The endpoint URL where the form data will be submitted.
+    - `formElement`: The HTML form element you want to handle.
+    - `startPoint`: The URL where the form data will be submitted.
     - `endPoint` (Optional): The URL to redirect to upon successful form submission.
-
-    Code
-
+    .
     ```javascript
     // Example usage:
     const formElement = document.getElementById('myForm'); // Replace 'myForm' with your form's ID
-    const submitEndpoint = 'http://example.com/submit'; // Replace with your submission endpoint
+    const startPoint = 'http://example.com/submit'; // Replace with your submission
+    const endPoint = 'http://example.com/success'; // Replace with your final success redirect URL
 
     // Call handleFormSubmit function
-    handleFormSubmit(formElement, submitEndpoint);
+    handleFormSubmit(formElement, startPoint, endPoint);
     ```
 
-    Optionally, you can provide an `endPoint` to redirect the user upon successful form submission:
+    Replace `'myForm'`, `http://example.com/submit`, and `http://example.com/success` with your actual form ID, endpoint URL for form submission, and final success redirect URLs.
 
-    ```javascript
-    // Example usage with redirection upon successful submission:
-    const formElement = document.getElementById('myForm'); // Replace 'myForm' with your form's ID
-    const submitEndpoint = 'http://example.com/submit'; // Replace with your submission endpoint
-    const successRedirect = 'http://example.com/success'; // Replace with your success redirect URL
-
-    // Call handleFormSubmit function with redirection
-    handleFormSubmit(formElement, submitEndpoint, successRedirect);
-    ```
-
-   Replace `'myForm'`, `http://example.com/submit`, and `http://example.com/success` with your actual form ID and endpoint URLs.
-
-This will enable the Handle Form Submit functionality for the specified form, handling its submission and, optionally, redirecting the user upon successful submission.
-
+This will enable the Handle Form Submit functionality for the specified form, handling its submission to the `startPoint` and, upon successful submission, redirecting to the `endPoint`.
 
 ---
 
