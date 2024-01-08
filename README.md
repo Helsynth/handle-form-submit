@@ -34,9 +34,9 @@ Handle Form Submit simplifies the process of handling form submissions by interc
 
 ## How to Use
 
-### Integrating `handleFormSubmit(element, startPoint, endPoint)`
+### Integrating  `handleFormSubmit(element, startPoint, endPoint)`
 
-To use the `handleFormSubmit` function within your project, follow these steps:
+To use the `handleFormSubmit`  function within your project, follow these steps:
 
 1. **Include the Library:** Include the Handle Form Submit library in your HTML file using the following script tag:
 
@@ -49,7 +49,9 @@ To use the `handleFormSubmit` function within your project, follow these steps:
     - `formElement`: The HTML form element you want to handle.
     - `startPoint`: The URL where the form data will be submitted.
     - `endPoint` (Optional): The URL to redirect to upon successful form submission.
-    .
+    
+    Example
+
     ```javascript
     // Example usage:
     const formElement = document.getElementById('myForm'); // Replace 'myForm' with your form's ID
