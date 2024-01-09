@@ -41,7 +41,7 @@ To use the `handleFormSubmit`  function within your project, follow these steps:
 1. **Include the Library:** Include the Handle Form Submit library in your HTML file using the following script tag:
 
     ```html
-    <script src="handle-form-submit.js"></script>
+    <script src="handle.form.submit.js"></script>
     ```
 
 2. **Call `handleFormSubmit`:** Call the `handleFormSubmit` function and pass the necessary parameters:
