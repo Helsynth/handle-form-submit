@@ -1,7 +1,7 @@
 /*
  * Handle Form Submit v1.0.2
  * Copyright 2023-2024 Helsynth (https://github.com/Helsynth)
- * Licensed under BSD-3-Clause license (https://github.com/Helsynth/handle-form-submit/blob/production/LICENSE.md)
+ * Licensed under BSD-3-Clause license (https://github.com/Helsynth/handle-form-submit/blob/production/LICENSE)
  */
 
 "use strict";
